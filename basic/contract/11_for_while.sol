@@ -1,11 +1,13 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.24;
+pragma solidity ^0.8.19;
 
 /**
+Solidity supports for,while, and do while loops.
 
+Don't write loops that are unbounded as this can hit the gas limit, causing your transaction to fail.
 */
 contract Loop {
-    function loop() public {
+    function loop() public pure {
         // for loop
         for (uint256 i = 0; i< 10; i++) {
             if (i == 3) {
