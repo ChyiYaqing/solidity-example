@@ -14,5 +14,5 @@ contract EtherUints {
 
     uint256 public oneEther = 1 ether;
     // 1 ether is equal to 10^18 wei
-    bool public isOneEther = (oneEther == 1e18);
+    bool public isOneEther = (oneEther == 2e18);
 }
